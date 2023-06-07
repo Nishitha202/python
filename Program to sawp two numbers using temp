@@ -1,0 +1,7 @@
+num1=int(input('enter first no to swap'))
+num2=int(input('enter second no to swap'))
+temp=num1
+num1=num2
+num2=temp
+print('after swppng first number is' +str(int(num1)))
+print('after swppng second number is' +str(int(num2)))
