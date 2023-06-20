@@ -1,0 +1,4 @@
+a="hello welcome to python programming"
+print(a)
+res=a.capitalize()
+print(res)
