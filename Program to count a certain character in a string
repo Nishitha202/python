@@ -1,0 +1,3 @@
+c="HELLO PYTHON"
+res=c.count("L",0,len(c))
+print(res)
