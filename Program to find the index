@@ -1,0 +1,3 @@
+String="I am a python programmer"
+res=String.index("y",0,len(String))
+print(res)
