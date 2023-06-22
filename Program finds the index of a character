@@ -1,0 +1,3 @@
+a="hello welcome to python programming"
+res=a.find("p",0,len(a))
+print(res)
