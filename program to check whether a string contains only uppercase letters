@@ -1,0 +1,3 @@
+var="WELCOME TO PYCHARM"
+res=var.isupper()
+print(res)
