@@ -1,0 +1,3 @@
+D="i am hungry but i dont have money"
+res=D.islower()
+print(res)
