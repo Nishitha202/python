@@ -1,0 +1,3 @@
+title="Hello Welcome To Python Programming"
+res=title.istitle()
+print(res)
