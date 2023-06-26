@@ -1,0 +1,2 @@
+var="WELCOME TO PYCHARM"
+print(var.lower())
