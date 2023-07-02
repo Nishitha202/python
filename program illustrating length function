@@ -1,2 +1,5 @@
+#Variable title is used to store the vqlue of the string 
 title="Welcome to python programming"
+#String function len() is used
 print(len(title))
+
