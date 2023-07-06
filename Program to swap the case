@@ -1,0 +1,2 @@
+Var="Hello Learners Welcome to Python Programming"
+print(Var.swapcase())
