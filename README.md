@@ -1,1 +1,1 @@
-This repository contains some basic python programs for absolute beginner
+This repository contains some  of the basic python programs for absolute beginners
