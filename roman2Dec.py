@@ -10,7 +10,8 @@ def roman2Dec(romstr):
         else:
             value+=leftVal
         rightVal=leftVal
-    return value
+    return value 
+    # Taking input as a roman number
 romanstr=input('Enter a roman number')
 print(roman2Dec(romanstr))
 
