@@ -1,2 +1,3 @@
 Var="Hello Learners Welcome to Python Programming"
+#var.swapcase() is a function that converts lower case to upper and viceversa
 print(Var.swapcase())
