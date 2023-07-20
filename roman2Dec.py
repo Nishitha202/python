@@ -5,7 +5,7 @@ def roman2Dec(romstr):
     rightVal=roman_dict[romanBack[0]]
     for numeral in romanBack:
         leftVal=roman_dict[numeral]
-        if leftVal<rightVal:
+        if leftVal<rightVal:#check whether lefVal is less than rightVal 
             value-=leftVal
         else:
             value+=leftVal
