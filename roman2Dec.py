@@ -1,6 +1,6 @@
 def roman2Dec(romstr):
     roman_dict={'I':1 ,'V':5,'X':10,'L':50,'C':100,'D':500, 'M':1000}
-    romanBack=list(romanstr)[::-1]
+    romanBack=list(romanstr)[::-1]#reverse the content in romstr
     value=0
     rightVal=roman_dict[romanBack[0]]
     for numeral in romanBack:
