@@ -1,10 +1,10 @@
 import os.path
 import sys
-fname=input("enter the filename")
-if not os.path.isfile(fname):
-    print("the file",fname,"doesn't exists")
+Fname=input("enter the filename")
+if not os.path.isfile(Fname):
+    print("the file",name,"doesn't exists")
     sys.exit(0)
-infile=open(fname,"r")
+infile=open(name,"r")
 linelist=infile.readlines()
 for i in range(10):
     print(i+1,":",linelist[i])
