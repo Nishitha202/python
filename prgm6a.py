@@ -4,7 +4,7 @@ Fname=input("enter the filename")
 if not os.path.isfile(Fname):
     print("the file",Fname,"doesn't exists")
     sys.exit(0)
-infile=open(name,"r")
+infile=open(Fname,"r")
 linelist=infile.readlines()
 for i in range(10):
     print(i+1,":",linelist[i])
