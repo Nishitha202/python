@@ -2,7 +2,7 @@ import os.path
 import sys
 Fname=input("enter the filename")
 if not os.path.isfile(Fname):
-    print("the file",name,"doesn't exists")
+    print("the file",Fname,"doesn't exists")
     sys.exit(0)
 infile=open(name,"r")
 linelist=infile.readlines()
