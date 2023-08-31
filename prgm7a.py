@@ -5,7 +5,7 @@ class shape:
         self.name=""
     def showArea(self):
         print("the area of",self.name,"is",self.area,"units")
-class circle(shape):
+class Circle(shape):
     def __init__(self,radius):
         self.area = 0
         self.name = "circle"
