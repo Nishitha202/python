@@ -33,7 +33,7 @@ class Triangle(shape):
 
     def clacArea(self):
         self.area =  self.base * self.height/2
-c1=circle(2)
+c1=Circle(2)
 c1.clacArea()
 c1.showArea()
 
