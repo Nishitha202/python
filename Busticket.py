@@ -8,5 +8,7 @@ def fn(start,end):
         return 300
     if start=="kuloor" and end=="suratkal":
         return 500
+       if start=="kannur" and end=="suratkal":
+        return 500
 
 print(fn(start,end))
