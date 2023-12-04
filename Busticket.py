@@ -7,7 +7,7 @@ def fn(start,end):
     if start=="Manipal" and end=="kottara":
         return 300
     if start=="kuloor" and end=="suratkal":
-        return 500
+        return 50
        if start=="kannur" and end=="suratkal":
         return 500
 
